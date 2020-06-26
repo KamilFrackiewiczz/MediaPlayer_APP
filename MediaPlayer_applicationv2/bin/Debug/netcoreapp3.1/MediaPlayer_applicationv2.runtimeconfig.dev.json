@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ulaga\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ulaga\\.nuget\\packages"
+    ]
+  }
+}

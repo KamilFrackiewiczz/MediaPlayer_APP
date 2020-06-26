@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayer_applicationv2", "MediaPlayer_applicationv2.csproj", "{5E97260D-4C7E-4775-851B-2119DCFDCCCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E97260D-4C7E-4775-851B-2119DCFDCCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E97260D-4C7E-4775-851B-2119DCFDCCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E97260D-4C7E-4775-851B-2119DCFDCCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E97260D-4C7E-4775-851B-2119DCFDCCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {360DAE28-F286-4CB3-BE29-A68BC29A375A}
+	EndGlobalSection
+EndGlobal

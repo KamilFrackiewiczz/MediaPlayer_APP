@@ -1,0 +1,69 @@
+﻿<Window x:Class="MediaPlayer_applicationv2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MediaPlayer_applicationv2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded"
+        x:Name="Main_Window">
+    <Window.Resources>
+        <local:DoubleToDateSpan x:Key="Converter"/>
+        <local:DoubleToPercent x:Key="DoubleToPercent"/>
+        <Style TargetType="{x:Type Button}" x:Key="buttonStyle">
+            <Setter Property="Background" Value="Azure"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+            <Grid>
+                <ProgressBar Width="{Binding ElementName=Main_Window, Path=Width}" 
+                             Value="{Binding ElementName=TimeSlider, Path=Value}"
+                             Maximum="{Binding ElementName=TimeSlider,Path=Maximum}"/>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock.Text>
+                        <MultiBinding Converter="{StaticResource DoubleToPercent}"
+                                      StringFormat="{}{0:P0}">
+                            <Binding ElementName="TimeSlider" Path="Value"/>
+                            <Binding ElementName="TimeSlider" Path="Maximum"/>
+                        </MultiBinding>
+                    </TextBlock.Text>
+                </TextBlock>
+            </Grid>
+        </StatusBar>
+        <Border DockPanel.Dock="Bottom" BorderThickness="5" BorderBrush="Black" Background="Azure">
+            <WrapPanel>
+                <Button Content="Play" Margin="10" Width="70" 
+                        Click="ButtonPlay" Style="{StaticResource buttonStyle}"/>
+                <Button Content="Pause" Margin="10" Width="70" 
+                        Click="ButtonPause" Style="{StaticResource buttonStyle}"/>
+                <Button Content="Stop" Margin="10" Width="70" 
+                        Click="ButtonStop" Style="{StaticResource buttonStyle}"/>
+                <Label Content="Volume" Margin="10,10,0,10"/>
+                <Slider Margin="0,11,0,0" Width="60" 
+                        Value="{Binding ElementName=MyMediaVideo, Path=Volume}" Maximum="1"/>
+                <Label Content="Time" Margin="10,10,0,10"/>
+                <Slider Margin="0,11,0,0" Width="180" 
+                        x:Name="TimeSlider"
+                        ValueChanged="TimeSlider_ValueChanged"
+                        Thumb.DragStarted="TimeSlider_DragStarted"
+                        Thumb.DragCompleted="TimeSlider_DragCompleted"/>
+                <Label x:Name="WatchedTime" Margin="0,11,0,0" Content="{Binding ElementName=TimeSlider, Path=Value, Converter={StaticResource Converter}}"/>
+                <Label Margin="0,11,0,0" Content=" / "/>
+                <Label x:Name="MaxTime" Margin="0,11,0,0" Content="{Binding ElementName=TimeSlider, Path=Maximum,Converter={StaticResource Converter}}"/>
+            </WrapPanel>
+        </Border>
+        <MediaElement Source="Bon Jovi - Livin On A Prayer.mp4" 
+                      Margin="10" 
+                      Volume="0.50" 
+                      x:Name="MyMediaVideo" 
+                      LoadedBehavior="Manual"
+                      MediaOpened="MyMediaVideo_MediaOpened"
+                      />
+    </DockPanel>
+</Window>

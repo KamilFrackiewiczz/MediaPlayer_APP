@@ -1,0 +1,21 @@
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MediaPlayer_applicationv2_MarkupCompile.cache
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MediaPlayer_applicationv2_MarkupCompile.lref
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\bin\Debug\netcoreapp3.1\Bon Jovi - Livin On A Prayer.mp4
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\bin\Debug\netcoreapp3.1\MediaPlayer_applicationv2.exe
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\bin\Debug\netcoreapp3.1\MediaPlayer_applicationv2.deps.json
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\bin\Debug\netcoreapp3.1\MediaPlayer_applicationv2.runtimeconfig.json
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\bin\Debug\netcoreapp3.1\MediaPlayer_applicationv2.runtimeconfig.dev.json
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\bin\Debug\netcoreapp3.1\MediaPlayer_applicationv2.dll
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\bin\Debug\netcoreapp3.1\MediaPlayer_applicationv2.pdb
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MediaPlayer_applicationv2.g.resources
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MediaPlayer_applicationv2.AssemblyInfoInputs.cache
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MediaPlayer_applicationv2.AssemblyInfo.cs
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MediaPlayer_applicationv2.csproj.CoreCompileInputs.cache
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MediaPlayer_applicationv2.dll
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MediaPlayer_applicationv2.pdb
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MediaPlayer_applicationv2.genruntimeconfig.cache
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\MediaPlayer_applicationv2.csprojAssemblyReference.cache
+C:\Users\ulaga\source\repos\MediaPlayer_applicationv2\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
